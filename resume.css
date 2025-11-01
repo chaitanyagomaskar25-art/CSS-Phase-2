@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    height: auto;
+    width: 80vw;
+    margin: 100px;
+    border: 4px solid black;
+    text-decoration: none;
+    background-color: rgb(226, 216, 216);
+}
+/* ----------------------header-------------------- */
+header{
+    height: auto;
+    background-color: rgb(30, 144, 144);
+}
+.cotainer{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+      
+}
+
+img{
+    float: left;
+    margin: 20px;
+     height:170px;
+     width:170px; 
+    display: inline;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+}
+img:hover{
+    box-shadow: 2px 2px 2px 3px rgb(243, 238, 238);
+}
+.name{
+    padding: 50px;
+    display: inline;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.name h1{
+    font-size: 35px;
+}
+.name h4{
+    font-size: 20px;
+    line-height: 2;
+}
+.name hr{
+    height: 3px;
+    background-color: antiquewhite;
+}
+.name hr:hover{
+    background-color: black;
+    outline: none;
+}
+.name a{
+    display: block;
+    line-height: 2;
+    color: antiquewhite;
+    text-align: center;
+}
+.name a:hover{
+    color: black;
+    text-decoration: underline wavy antiquewhite;
+}
+
+/* ------------------------------container---------------------- */
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;       
+ }
+ .item1{
+    height: 400px;
+    width: 450px;
+    border: 2px solid gray;
+    margin: 30px;
+    padding: 20px;
+    line-height: 1.5;
+    padding: 30px;
+   
+ }
+.item1:hover{
+    box-shadow: 5px 5px 3px 3px gray;
+    border: 4px solid rgb(30, 144, 144);
+    background-color: rgb(134, 47, 93);
+    color: antiquewhite;
+    padding: 20px;
+ }
+ .item1 h2{
+    text-decoration: underline wavy gray;
+    text-shadow: 2px 2px 5px rgb(23, 96, 126);
+ }
+ /* ------------------------------------------ */
+ footer h3{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px rgb(23, 96, 126);
+ }
+ /* -------------------------------- */

@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+  border-bottom: 5px solid;
+  background-color: lightgray;
+  padding: 20px;
+  border: 25px solid rgb(68, 67, 67);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container h1{
+  font-style: italic;
+  margin: 20px;
+  font-size: 45px;
+}
+
+.navbar{
+    margin: 10px;
+}
+.navbar a{
+    padding-left: 20px;
+    color: black; 
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(43, 146, 187);
+}
+.navbar a:hover{
+  color: whitesmoke;
+}
+.searchbar{
+text-align: center;
+padding-bottom: 20px;
+
+}
+ search-box {
+  display: flex;
+  align-items: center;  
+}
+
+.search-box input {
+  padding: 8px;
+  border: 1px solid #242121;
+  border-radius: 5px;
+  outline: none;
+   cursor: pointer;
+}
+.search-box input:focus{
+    border: 2px solid gray;
+    background-color: aliceblue;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #005fd1;
+}
+/* -------------------------------- */
+
+
+.parent{
+  width: 80vw;
+  height: fit-content;
+  margin: 10vh auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 17px;
+  justify-items: center;
+ 
+}
+.child{
+  width: 250px;
+  height: fit-content;
+  border: 2px solid gray;
+  overflow: hidden;
+  background-color: whitesmoke;
+   transition: transform 1s ease;
+}
+.child:hover{
+  border-radius: 5px;
+  border: 2px solid black;
+  transform: scale(1.05);
+  background-color: white;
+}
+.child h4{
+  margin: 20px;
+  font-size: 19px;
+  text-align: center;
+  background-color: whitesmoke;
+  
+}
+.child b, p{
+  background-color: whitesmoke;
+  font-family: fantasy;
+  font-style: italic;
+}
+.child p{
+  padding: 10px;
+}
+
+.child img{
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+  border-radius: 50%;
+  
+}
+.child img:hover{
+  border: 3px solid black;
+}
+main{
+  border-bottom: 3px solid ;
+}
+
+/* ------------------------------------------- */
+footer{
+  text-align: center;
+}
+footer a{
+  display: block;
+  color: black;
+  line-height: 2;
+  background-color: lightgray;
+  text-shadow: 2px 2px 2px rgb(43, 146, 187);
+  
+}
+footer a:hover{
+  color: whitesmoke;
+}
+/* -------------------------------- */
+@media only screen and (min-width:1440px){
+  .parent{
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  }
+  .child{
+  width: 350px;  
+}
+.child img{
+  margin: 50px;
+}
+}
+
+@media only screen and (min-width:2000px){
+  .parent{
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 20px;
+  }
+  .child{
+  width: 450px;  
+}
+.child img{
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+}
+.searchbar{
+padding-bottom: 30px;
+
+}
+.container h1{
+  font-size: 60px;
+}
+.navbar a{
+  font-size: 30px;
+}
+
+.search-box input {
+  padding: 13px 50px;
+  border: 2px solid #242121;
+  border-radius: 10px;
+  outline: none;
+   cursor: pointer;
+   font-size: 20px;
+}
+.search-box button {
+  padding: 13px 18px;
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font: 20px;
+}
+.child b, p{
+  font-size: 35px;
+}
+footer a{
+  font-size: 30px;
+}
+}
+
+@media only screen and (max-width:450px){
+  .container h1{
+    font-size: 15px;
+  }
+  .navbar a{
+    font-size: 11px;
+  }
+  .search-box input{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .search-box button{
+    font-size: 12px;
+    padding: 5px;
+  }
+}
