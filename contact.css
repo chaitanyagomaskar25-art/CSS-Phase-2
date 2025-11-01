@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    line-height: 2;
+}
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+h1{
+    color: rgb(33, 131, 117);
+    font-size: 35px;
+    margin: 20px;
+    text-decoration: underline wavy darkgray;
+}
+a{
+    color: rgb(6, 108, 108);
+}
+a:hover{
+    color: black;
+    text-decoration: underline wavy deeppink;
+}
+.abcd{
+    font-size: 20px;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+footer li{
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+footer li a{
+    text-decoration: none;
+     color: black;
+}
+footer li a:hover{
+    color: rgb(29, 125, 132);
+    text-decoration: underline wavy darkgray ;
+}
