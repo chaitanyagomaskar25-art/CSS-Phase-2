@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(199, 196, 192);
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    color: rgb(29, 17, 24);
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px 20px;
+}
+caption{
+    font-size: 25px;
+    font-weight: 700;
+   margin-bottom: 10px;
+}
+th{
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: gray;
+    font-weight: 700;
+    padding: 10px;
+}
+td{
+    border: 2px solid black;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: rgb(103, 152, 155);
+}
+tr:hover{
+    background-color: rgb(29, 125, 132);
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+footer li{
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+footer li a{
+    text-decoration: none;
+     color: black;
+}
+footer li a:hover{
+    color: deeppink;
+    text-decoration: underline wavy rgb(29, 125, 132);
+}
+h1{
+
+    text-align: center;
+}
