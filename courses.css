@@ -1,0 +1,156 @@
+*{
+    text-decoration: noen;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(248, 248, 231);
+}
+/* -------------Container section------------ */
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px ;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    padding: 50px;
+    height: auto;
+    margin: 40px;
+    border-radius: 25px;      
+    box-shadow: 10px 10px 10px 10px gray;
+   
+
+}
+.container:hover{
+    background-color: darkgrey;
+    border: 5px solid;
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px ;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    padding: 50px;
+    height: auto;
+    margin: 40px;  
+    flex-direction: row-reverse;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px gray;
+    
+}
+.container1:hover{
+    background-color: darkgrey;
+    border: 5px solid;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px ;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    padding: 50px;
+    height: auto;
+    margin: 40px;  
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px gray;
+    
+}
+.container2:hover{
+    background-color: darkgrey;
+    border: 5px solid;
+}
+/*-------------------- items section------------- */
+
+.item{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(65, 118, 122);
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10%;
+    box-shadow: -10px 5px 10px 5px rgb(84, 83, 83);
+    flex-basis: 200px;
+}
+.item:hover{
+    border: 5px solid black;
+}
+
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(65, 118, 122);
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 30%;
+    box-shadow: -10px 5px 10px 5px rgb(84, 83, 83);
+    flex-grow: 1;
+}
+.item1:hover{
+    border: 5px solid black;
+}
+.item2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(65, 118, 122);
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10%;
+    box-shadow: -10px 5px 10px 5px rgb(84, 83, 83);
+    
+}
+.item2:hover{
+    border: 5px solid black;
+}
+
+/* -----------------other decoration---------------*/
+h2{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline wavy rgb(196, 38, 122);
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 50px;
+    color: rgb(99, 28, 85);
+}
+div li{
+    color: rgb(245, 107, 130);
+    background-color: rgb(65, 118, 122);
+    list-style: none ;
+    font-style: italic;
+    font-size: 20px;
+}
+div li:hover{
+    color: black;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+/* --------------------Footer--------------- */
+footer li{
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+footer li a{
+    text-decoration: none;
+     color: black;
+}
+
+@media only screen and (min-width: 1024px){
+    .container1{
+        flex-direction: row;
+        
+       
+    }
+    .item1{
+        flex-grow: 0;
+         height: 200px;
+        width: 200px;
+    }
+}
